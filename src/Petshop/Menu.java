@@ -42,7 +42,7 @@ public class Menu {
         } while (true);
     }
 
-    //Nomeia o pet que atráves do método putPet
+    //Nomeia o pet e o coloca na máquina usando o método putPet
     public static void insertPet() {
         String name = "";
         Pet pet = new Pet(name);
